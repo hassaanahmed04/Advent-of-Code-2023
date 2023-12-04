@@ -4,7 +4,6 @@ def check_winnings(l1,l2):
     for i in l1:
         for j in range(len(l2)):
             if i==l2[j]:
-                
                 if g<1:
                     g+=1
                 else:
